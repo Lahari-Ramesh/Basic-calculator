@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <table border="3" cellpadding="5px" cellspacing="5" align="center">
+        <tr>
+            <td colspan="4" > <input type="text" id="inp1"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="+" onclick="display('+')"></td>
+            <td><input type="button" value="*" onclick="display('')"></td>
+            <td><input type="button" value="-" onclick="display('-')"></td>
+            <td><input type="button" value="/" onclick="display('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="9"onclick="display('9')"></td>
+            <td><input type="button" value="8"onclick="display('8')"></td>
+            <td><input type="button" value="7"onclick="display('7')"></td>
+            <td rowspan="3"><input type="button" value="=" id="equal" onclick="evaluation()"></td>
+            <!-- funcation name is evaluation for arthametic operations -->
+        </tr>
+        <tr>
+            <td><input type="button" value="6"onclick="display('6')"></td>
+            <td><input type="button" value="5"onclick="display('5')"></td>
+            <td><input type="button" value="4"onclick="display('4')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="3"onclick="display('3')"></td>
+            <td><input type="button" value="2"onclick="display('2')"></td>
+            <td><input type="button" value="1"onclick="display('1')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0"onclick="display('0')"></td>
+            <td><input type="button" value="."onclick="display('.')"></td>
+            <td><input type="button" value="Del" id="del" 
+            onclick="del()"></td>
+            <td><input type="button" value="AC" id="ac" onclick="ac()"></td>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>

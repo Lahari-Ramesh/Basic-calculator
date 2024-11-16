@@ -1,0 +1,34 @@
+body{
+    background-color: #D6C7AE;
+   }
+   h1{
+    color: rgb(0, 0, 0);
+    /* background-color: powderblue; */
+    text-align: center;
+    font-size: 50px;
+   }
+ 
+   #inp1{
+    width: 450px;
+    height: 80px;
+   }
+   input{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    margin: 20px;
+    border-radius: 10px;
+   }
+   #equal{
+    height: 350px;
+   }
+   
+   #ac{
+    background-color: #5f9fc1;
+   }
+   table{
+    background-color: #000000;
+    box-shadow: 0 5px 0 rgba(0,0,0,.5);
+    box-shadow: inset 0 -5px 10px 5px rgba(0, 0,0, .5);
+    /* transform: translate(-50%,-50%) scale(1); */
+   }
